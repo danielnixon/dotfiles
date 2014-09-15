@@ -5,5 +5,7 @@
   "trim_trailing_white_space_on_save": true,
   "rulers": [80, 120],
   "spell_check": true,
-  "ensure_newline_at_eof_on_save": true
+  "ensure_newline_at_eof_on_save": true,
+  "folder_exclude_patterns": [".git", "target", "bin", ".settings", "logs"],
+  "file_exclude_patterns": [".project", ".classpath", ".cache", ".DS_Store"]
 }
