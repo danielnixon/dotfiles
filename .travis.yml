@@ -2,4 +2,4 @@ language: node_js
 install: npm install jsonlint -g
 script:
   - jsonlint -q Preferences.sublime-settings
-  - bash -n .profile
+  - bash -n .bash_profile
