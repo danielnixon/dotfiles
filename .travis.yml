@@ -9,4 +9,4 @@ addons:
 install: npm install jsonlint -g
 script:
   - jsonlint -q Preferences.sublime-settings
-  - shellcheck .bash_profile
+  - shellcheck -s bash .bash_profile
