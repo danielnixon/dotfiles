@@ -1,5 +1,12 @@
 language: node_js
+sudo: false
+addons:
+  apt:
+    sources:
+    - debian-sid
+    packages:
+    - shellcheck
 install: npm install jsonlint -g
 script:
   - jsonlint -q Preferences.sublime-settings
-  - bash -n .bash_profile
+  - shellcheck .bash_profile
