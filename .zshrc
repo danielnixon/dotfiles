@@ -22,7 +22,7 @@ plugins=(git nvm macos thefuck yarn node npm docker brew)
 source $ZSH/oh-my-zsh.sh
 
 # intel brew prefix is /usr/local, m1 is /opt/homebrew
-source $(brew --prefix)/opt/powerlevel10k/powerlevel10k.zsh-theme
+source $(brew --prefix)/share/powerlevel10k/powerlevel10k.zsh-theme
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
